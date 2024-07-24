@@ -1,5 +1,5 @@
 # First stage builds the application
-FROM registry.access.redhat.com/ubi9/nodejs-18:1-26.1675794538 as builder
+FROM registry.access.redhat.com/ubi9/nodejs-18:1-118 as builder
 
 USER 1001
 

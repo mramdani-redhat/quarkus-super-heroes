@@ -20,7 +20,7 @@ RUN npm run build && \
     npm prune --production
 
 # Second stage copies the application to the minimal image
-FROM registry.access.redhat.com/ubi9/nodejs-18-minimal:1-27.1675790153
+FROM registry.access.redhat.com/ubi9/nodejs-18-minimal:9.5-1736727540
 
 # ENV variables
 # HTTP_PORT: The http port this service listens on
